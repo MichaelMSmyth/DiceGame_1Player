@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    color: inherit;
+    gap: inherit;
+}
+
+html {
+    font-family: "Playfair Display";
+    font-size: 100%;
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+    gap: 1em;
+}
+
+.body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-flow: column;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+    font-size: 2em;
+}
+
+.mainbox {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+    font-size: 2em;
+}
+
+#startAgain {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+    font-size: 2em;
+    color:black;
+}
+
+.currentPlayer {
+    display: flex; 
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+    font-size: 2em;
+}
+
+.playerScore {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+    font-size: 2em;
+}
+
+.dice {
+    
+}
+
+#rollButton {
+    display: ;
+    bottom: 0;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+    font-size: 2em;
+    color:black;
+}
